@@ -43,6 +43,15 @@ CLEAR:  Clears the communicaion window.
 
 SEND: Sends out a slash (/) followed by any text you entered (manually) into the communicaton windowd.
 
+Clock:  Hold for 2 seconds to begin sending out the clocking sequence once per second.
+
+    /#1[cr]
+    
+    Keeps sending out until Clock is hit again.
+    
+    This can be used by your project to take some action like keep track of time or to send out a stream of data readings.
+    
+    
 INIT: Sends out the initialization request sequence: / * 1 [cr].
     
     This command is sent out automatically when the app starts.  It is used to tell your device  to send out Title and Button legends as shown below.
