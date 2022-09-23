@@ -35,10 +35,22 @@ Here are the controls.
 
 The SLIDER control sends out values from 0 to 255.
 
-Slider near middle: /X127[cr]
+    Slider near middle: /X127[cr]
 
-Slider at maximum:  /X255[CR]
+    Slider at maximum:  /X255[CR]
+    
+CLEAR:  Clears the communicaion window.
 
+SEND: Sends out a slash (/) followed by any text you entered (manually) into the communicaton windowd.
+
+INIT: Sends out the initialization request sequence: / * 1 [cr].
+
+You may do whatever you want with this data in your project just as is.  However, you can also send data back to the app as follows...
+
+T,[title text string]
+    Puts the text string in the Title Box near the top of the screen.  This lets you know what project you are connected to.
+    
+    
 
 
 
