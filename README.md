@@ -9,13 +9,13 @@ This is how the unit looks before connecting to your project.  Once you connect,
 
 All commands have the format: /[character][number][cr]
 
-/ = the forward slash character
+    / = the forward slash character
 
-character = any single printable character
+    character = any single printable character
 
-number = 1 to 3 digit ascii decimal (text) number
+    number = 1 to 3 digit ascii decimal (text) number
 
-[cr] = carriage return (ascii 13) not newline (ascii 10)
+    [cr] = carriage return (ascii 13) not newline (ascii 10)
 
 
 
@@ -23,13 +23,13 @@ All outgoing commands are shown in RED in the communication window at the top of
 
 Here are the controls.
 
-Buttons 1-12: Send A thru L as text characters. Here are some examples.
+    Buttons 1-12: Send A thru L as text characters. Here are some examples.
 
-Button #1 Down: /A1[cr]
+    Button #1 Down: /A1[cr]
 
-Button #1 Up:   /A0[cr]
+    Button #1 Up:   /A0[cr]
 
-Button #3 Down: /C1[cr]
+    Button #3 Down: /C1[cr]
 
 
 
