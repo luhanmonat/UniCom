@@ -1,7 +1,8 @@
 # UniCom
 Universal bluetooth interface for Arduino projects. Instead of writing apps for each of your bluetooth connected projects, use the same program to control many different projects.  It features...
 
-    A communication window to show both outgoing (RED) and incomming (BLUE) data.
+    A communication window to show both 
+    outgoing (RED) and incomming (BLUE) data.
     
     A Title window that can be set by your project.
     
@@ -9,7 +10,8 @@ Universal bluetooth interface for Arduino projects. Instead of writing apps for 
     
     4 Data windows to show data sent from you project.
     
-    12 Buttons that can have custom legends controlled by your project.
+    12 Buttons that can have custom legends 
+    controlled by your project.
     
 ![UniCom 5](https://user-images.githubusercontent.com/46026730/192060404-824c941c-ae6b-4235-98d9-372d9ffe7f43.gif)
 
@@ -67,12 +69,12 @@ This can be used by your project to take some action like keeping track of time 
 INIT: Sends out the initialization request sequence: / * 1 [cr].
     
     This command is sent out automatically when the app starts.
-    It is normally used to tell your device to send out Title and Button
-    legends as shown below.
+    It is normally used to tell your device to send back
+    a title string and Button legends as shown below.
 
             *   *   *   *   *   *   *   *   *   *
             
-You may do whatever you want with this data in your project just as is.  However, you can also send data back to the app as follows...
+You may do whatever you want with this data in your project just as is.  However, you can also send data back to the app from your device as follows...
 
 T,[title text string][cr]
     Puts the text string in the Title Box near the top of the screen.
