@@ -47,8 +47,19 @@ INIT: Sends out the initialization request sequence: / * 1 [cr].
 
 You may do whatever you want with this data in your project just as is.  However, you can also send data back to the app as follows...
 
-T,[title text string]
-    Puts the text string in the Title Box near the top of the screen.  This lets you know what project you are connected to.
+T,[title text string][cr]
+    Puts the text string in the Title Box near the top of the screen.  This lets you know what project you are connected to.  Example...
+    
+    T,My New Project[cr]
+    
+B,[button number],string1,string2,etc.
+    This puts new legends on your buttons starting at 'button number'.  You can load all of the buttons at once if you wish...
+    
+    Load all 12 legends: B,1,FIRST,SECOND....,Last one[cr]
+    Re-legend buttons 5 and 6: B,5,but5,but6[cr]
+    
+    
+    
     
     
 
