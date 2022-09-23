@@ -1,7 +1,16 @@
 # UniCom
-Universal (?) bluetooth interface for Arduino projects.
+Universal bluetooth interface for Arduino projects. Instead of writing apps for each of your bluetooth connected projects, use the same program to control many different projects.  It features...
 
-Use the same program to control many different projects.
+    A communication window to show both outgoing (RED) and incomming (BLUE) data.
+    
+    A Title window that can be set by your project.
+    
+    A slider bar that sends out positional data.
+    
+    4 Data windows to show data sent from you project.
+    
+    12 Buttons that can have custom legends controlled by your project.
+    
 
 ![UniCom1a](https://user-images.githubusercontent.com/46026730/191946727-d62cf5e2-7418-49cc-b4e3-b1366e27de0b.jpg)
 
