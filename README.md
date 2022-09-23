@@ -57,13 +57,14 @@ Clock:  Hold for 2 seconds to begin sending out the clocking sequence once per s
     /#1[cr]
     
     Keeps sending out until Clock is hit again.
-    
-    This can be used by your project to take some action like keep track of time or to send out a stream of data readings.
+
+This can be used by your project to take some action like keep track of time or to send out a stream of data readings.
     
     
 INIT: Sends out the initialization request sequence: / * 1 [cr].
     
-    This command is sent out automatically when the app starts.  It is used to tell your device  to send out Title and Button legends as shown below.
+    This command is sent out automatically when the app starts.
+    It is used to tell your device to send out Title and Button legends as shown below.
 
 You may do whatever you want with this data in your project just as is.  However, you can also send data back to the app as follows...
 
