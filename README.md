@@ -11,8 +11,8 @@ Universal bluetooth interface for Arduino projects. Instead of writing apps for 
     
     12 Buttons that can have custom legends controlled by your project.
     
+![UniCom 5](https://user-images.githubusercontent.com/46026730/192060404-824c941c-ae6b-4235-98d9-372d9ffe7f43.gif)
 
-![UniCom5b](https://user-images.githubusercontent.com/46026730/192058455-b6b97c49-81ac-4a70-8bc3-b5813f8969b4.jpg)
 
 This is how the unit looks before connecting to your project.  Once you connect, it can send commands via bluetooth as follows...
 
