@@ -44,6 +44,8 @@ CLEAR:  Clears the communicaion window.
 SEND: Sends out a slash (/) followed by any text you entered (manually) into the communicaton windowd.
 
 INIT: Sends out the initialization request sequence: / * 1 [cr].
+    
+    This command is sent out automatically when the app starts.  It is used to tell your device  to send out Title and Button legends as shown below.
 
 You may do whatever you want with this data in your project just as is.  However, you can also send data back to the app as follows...
 
@@ -55,9 +57,19 @@ T,[title text string][cr]
 B,[button number],string1,string2,etc.
     This puts new legends on your buttons starting at 'button number'.  You can load all of the buttons at once if you wish...
     
-    Load all 12 legends: B,1,FIRST,SECOND....,Last one[cr]
+    Load all 12 legends: B,1,FIRST,SECOND,...,Last one[cr]
     Re-legend buttons 5 and 6: B,5,but5,but6[cr]
+    Re-legend only button 10: B,10,XYZ[cr]
     
+    
+Dn,[any text][cr] - where n=1-4. Puts text into one of 4 data windows. You can put any type of data you want but it must be as text. For example -
+
+    D1,125 Volts[cr]
+    D3,*error*[cr]
+    D4,Zzzzz[cr]
+
+
+
     
     
     
