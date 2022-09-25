@@ -53,9 +53,9 @@ The SLIDER control sends out values from 0 to 255.
     
 CLEAR:  Clears the communicaion window.
 
-SEND: Sends out a slash (/) followed by any text you entered (manually) into the communicaton windowd.
+SEND: Sends out a slash and the equal sign (/=) followed by any text you entered (manually) into the communicaton windowd.
 
-Clock:  Hold for 2 seconds to begin sending out the clocking sequence once per second.
+Clock:  Hold for more than one second to begin sending out the clocking sequence once per second.  The button legend text will highlight when this function is active.
 
     /#1[cr]
     
