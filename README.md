@@ -44,8 +44,6 @@ Buttons 1-12: Send A thru L as text characters.
 
     Button #3 Down: /C1[cr]
 
-Note: holding any button down for over one second will prevent the 'button up' code from being sent.  Your project can use this to 'latch' a function.  The button legend is highlighted in this mode.  Hitting the same button again (for less than one second) sends the normal on/off sequences and un-highlights the button legend.
-
 
 The SLIDER control sends out values from 0 to 255.
 
