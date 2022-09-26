@@ -93,7 +93,8 @@ B,[button number],string1,string2,etc[cr]
     
 C,[button number],[color]
 
-    Change the text color of a button.  Can be used to highlight on/off state that button controls.
+    Change the text color of a button.  Can be used to highlight on/off state
+    that button controls.
     Color is 3 character text string: BLK RED WHT YEL BLU GRN
     
     C,5,RED[CR]
@@ -102,6 +103,7 @@ C,[button number],[color]
     
     
 Dn,[any text][cr]
+
 Where n=1-4. Puts text into one of 4 data windows. You can put any type of data you want but it must be as text.
 
     D1,125 Volts[cr]
@@ -110,7 +112,8 @@ Where n=1-4. Puts text into one of 4 data windows. You can put any type of data 
 
 X,[0-255][cr]
 
-    Set visible slider position to specifed location.
+    Set visible slider tab position to specifed location.
+    Lets your program control the slider tab to show the current setting.
 
     
     
