@@ -89,6 +89,14 @@ B,[button number],string1,string2,etc[cr]
     Re-legend buttons 5 and 6: B,5,but5,but6[cr]
     Re-legend only button 10: B,10,XYZ[cr]
     
+C,[button number],[color]
+    Change the text color of a button.  Can be used to highlight on/off state that button controls.
+    Color is 3 character text string: BLK RED WHT YEL BLU GRN
+    
+    C,5,RED[CR]
+    C,12,BLK[CR]
+    C,4,YEL[CR]
+    
     
 Dn,[any text][cr] - where n=1-4. Puts text into one of 4 data windows. You can put any type of data you want but it must be as text. For example -
 
