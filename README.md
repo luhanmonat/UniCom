@@ -75,6 +75,7 @@ INIT: Sends out the initialization request sequence: / * 1 [cr].
 You may do whatever you want with this data in your project just as is.  However, you can also send data back to the app from your device as follows...
 
 T,[title text string][cr]
+
     Puts the text string in the Title Box near the top of the screen.
     This lets you know what project you are connected to.
     Example...
@@ -82,6 +83,7 @@ T,[title text string][cr]
     T,My New Project[cr]
     
 B,[button number],string1,string2,etc[cr]
+
     This puts new legends on your buttons starting at 'button number'.
     You can load all of the buttons at once if you wish...
     
@@ -90,6 +92,7 @@ B,[button number],string1,string2,etc[cr]
     Re-legend only button 10: B,10,XYZ[cr]
     
 C,[button number],[color]
+
     Change the text color of a button.  Can be used to highlight on/off state that button controls.
     Color is 3 character text string: BLK RED WHT YEL BLU GRN
     
@@ -98,7 +101,8 @@ C,[button number],[color]
     C,4,YEL[CR]
     
     
-Dn,[any text][cr] - where n=1-4. Puts text into one of 4 data windows. You can put any type of data you want but it must be as text. For example -
+Dn,[any text][cr]
+Where n=1-4. Puts text into one of 4 data windows. You can put any type of data you want but it must be as text.
 
     D1,125 Volts[cr]
     D3,*error*[cr]
@@ -106,7 +110,7 @@ Dn,[any text][cr] - where n=1-4. Puts text into one of 4 data windows. You can p
 
 X,[0-255][cr]
 
-    Set slider position to specifed location.
+    Set visible slider position to specifed location.
 
     
     
