@@ -26,7 +26,7 @@ All commands have the format: /[character][number][cr]
 
     number = 1 to 3 digit ascii decimal (text) number
 
-    [cr] = carriage return (ascii 13) - not newline (ascii 10)
+    [cr] = carriage return (ascii 13)
 
 
 
