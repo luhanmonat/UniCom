@@ -38,13 +38,14 @@ Buttons 1-12: Send A thru L as text characters.
     
     Examples...
 
-    Button #1 Down: /A1[cr]
+    Button #1 Down: /A0[cr]
 
-    Button #1 Up:   /A0[cr]
+    Button #1 Up:   /An[cr]     n = number of tenths os second held down
 
-    Button #3 Down: /C1[cr]
+    Button #3 Down: /C0[cr]
 
-
+    Note: butten held down for 1 second returns a value of 10 when released (i.e. /A10[cr]
+    
 The SLIDER control sends out values from 0 to 255.
 
     Slider near middle: /X127[cr]
@@ -64,7 +65,7 @@ Clock:  Hold for more than one second to begin sending out the clocking sequence
 This can be used by your project to take some action like keeping track of time or to send out a stream of data readings.
     
     
-INIT: Sends out the initialization request sequence: / * 1 [cr].
+INIT: Sends out the initialization request sequence: / * 0 [cr].
     
     This command is sent out automatically when the app starts.
     It is normally used to tell your device to send back
